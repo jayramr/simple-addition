@@ -5,4 +5,5 @@ WORKDIR /opt/webapp
 RUN pip3 install -r requirements.txt
 ADD . /opt/webapp
 EXPOSE 8080
+ENV FLASK_ENV=production 
 CMD python3 /opt/webapp/app.py
