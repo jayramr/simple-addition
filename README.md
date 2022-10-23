@@ -15,6 +15,6 @@ docker build -t <name-of-image>  .
 ```
 6. Start the container
 ```
-docker run -p 80:8080 <name-of-image>
+docker run -p 80:80 <name-of-image>
 ```
 7. Launch browser and hit "localhost"
