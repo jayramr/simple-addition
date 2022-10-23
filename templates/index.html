@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Addition App</h1>
+
+<form action="/send" method="POST">
+  <label for="num1">Enter First Number: </label>
+  <input type="text" id="num1" name="num1"><br><br>
+  <label for="num2">Enter Second Number: </label>
+  <input type="text" id="num2" name="num2"><br><br>
+  <input type="submit" value="Add" id="add_button" />
+  </form>
+<div id="outputDiv" style="width: 400px; height: 70px; border: 1px solid;"> {{sum}}</div>
+</body>
+</html>
