@@ -5,4 +5,4 @@ WORKDIR /opt/webapp
 RUN pip3 install --break-system-packages -r requirements.txt
 ADD . /opt/webapp
 EXPOSE 80
-CMD python3 /opt/webapp/app.py
+CMD ["python3", "/opt/webapp/app.py"]
